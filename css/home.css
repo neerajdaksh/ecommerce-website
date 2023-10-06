@@ -103,9 +103,8 @@ nav ul li {
 .product-box {
   border: 1px solid rgb(214, 214, 214);
   border-radius: 10px;
-  width: 300px;
-  height: 355px;
-  padding: 10px 0;
+  width: 300px; 
+  padding: 30px 10px;
   transition: all 0.3s;
   background-color: var(--card-color);
   
@@ -119,7 +118,19 @@ nav ul li {
 .product-box img {
   width: 200px;
   height: 200px;
+  border-radius: 10px;
 }
+ 
+.product-box .product-name {
+ height: 35px;
+ 
+  }
+ 
+ 
+.product-box .product-price{
+  font-size: 0.9rem;
+ }
+ 
  
 
 .product-box .add-cart button {
@@ -130,6 +141,7 @@ nav ul li {
   border-radius: 10px;
   color: #fff;
   transition: all 0.3s;
+  cursor: pointer;
 }
 .product-box .add-cart button:active{
     background-color: #fff;
