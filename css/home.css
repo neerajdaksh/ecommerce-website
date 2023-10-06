@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --primary-color: #2a9d8f;
+  --light-color:#D3D3D3;
+  --card-color:#fff;
+}
+
+body{
+    background-color: var(--light-color);
+}
+
+header {
+  height: 150px;
+  background-color: var(--primary-color);
+  padding: 0 30px;
+}
+
+nav {
+  height: 100px;
+  padding: 20px 0;
+}
+.logo {
+  font-size: 2rem;
+  color: #fff;
+}
+
+nav ul li {
+  margin: 0 10px;
+  color: #fff;
+}
+
+.nav-bottom select {
+  height: 30px;
+  width: 150px;
+  font-size: 1.2rem;
+  padding: 0 3px;
+  color: var(--primary-color);
+}
+
+.nav-bottom .search-bar {
+  width: 500px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.nav-bottom .search-bar input {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.nav-bottom .search-bar button {
+  width: 50px;
+  font-size: 1.2rem;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.cart {
+  width: 70px;
+  background-color: #fff;
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.cart button {
+  width: 30px;
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+.cart .no-of-item {
+  text-align: center;
+  background-color: var(--primary-color);
+  border-radius: 25%;
+  color: #fff;
+}
+
+.product-listing {
+  padding: 30px 10px;
+}
+
+.product-box {
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 10px;
+  width: 300px;
+  height: 355px;
+  padding: 10px 0;
+  transition: all 0.3s;
+  background-color: var(--card-color);
+  
+  
+}
+.product-box:hover {
+  box-shadow: 0px 0px 10px 3px rgba(139, 139, 139, 0.466);
+  
+}
+
+.product-box img {
+  width: 200px;
+  height: 200px;
+}
+ 
+
+.product-box .add-cart button {
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  transition: all 0.3s;
+}
+.product-box .add-cart button:active{
+    background-color: #fff;
+    border: 1px solid var(--primary-color);
+    color: #2a9d8f;
+ 
+}
+
+
+
+
+/* ++++++++++++++++ footer css++++++++++++++ */
+footer{
+background-color: #2a9d8f;
+padding: 10px;
+color: #fff;
+margin: 20px 0;
+}

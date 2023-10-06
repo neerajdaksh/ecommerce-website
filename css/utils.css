@@ -1,0 +1,54 @@
+/* || UTILITIES CLASSES */
+
+.flex{
+    display: flex;
+    /* align-items: center;
+    justify-content: space-between; */
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.gap{
+    gap: 40px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.item-center{
+    align-items: center;
+}
+
+ 
+
+.text-center{
+    text-align: center;
+}
+
+.nobullets{
+    list-style: none;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.mx-20{
+    margin: 0 20px;
+}
+
+.my-10{
+    margin: 10px 0;
+}
+.semibolder{
+    font-weight: bolder;
+}
+
+
+.links{
+    text-decoration: none;
+    color: black;
+}
