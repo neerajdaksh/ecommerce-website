@@ -24,11 +24,10 @@
             </ul>
         </nav>
         <div class="nav-bottom flex space-between">
-            <select name="" id="">
-                <option value="">Categories</option>
+            <select name="Categories" id="Categories">
+                <option value="Categories">Categories</option>
             </select>
-            <div class="search-bar flex"><input type="text" placeholder="Search..." /><button><i
-                        class='bx bx-search'></i></button></i></div>
+            <div class="search-bar flex"><form><input type="text" placeholder="Search..." required onkeyup="searchProduct(event)" /> </form></div>
             <div class="cart flex item-center space-between"><button><i class='bx bxs-cart-alt'></i></button>
                 <div class="no-of-item">0</div>
             </div>

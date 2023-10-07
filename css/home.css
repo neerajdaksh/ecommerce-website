@@ -47,6 +47,8 @@ nav ul li {
   font-size: 1.2rem;
   padding: 0 3px;
   color: var(--primary-color);
+  outline: none;
+  border: none;
 }
 
 .nav-bottom .search-bar {
@@ -60,19 +62,9 @@ nav ul li {
   outline: none;
   border: none;
   padding: 10px;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
+  border-radius: 20px; 
 }
-.nav-bottom .search-bar button {
-  width: 50px;
-  font-size: 1.2rem;
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  color: var(--primary-color);
-}
+ 
 
 .cart {
   width: 70px;
