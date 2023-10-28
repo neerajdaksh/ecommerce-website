@@ -28,7 +28,9 @@ const showProducts = (productsData) => {
      <a href="" class="links semibolder">${product.title}</a> 
     </div>
      <div class="product-price my-10">&dollar;${product.price}</div>
-    <div class="add-cart my-10"><button>Add to Cart</button></div>
+     <div class="add-cart my-10"><button>Add to Cart</button></div>
+     <div class="view-product" ><a href="./view-product.html?id=${product.id}" class="btn-view-product">View Product</a></div>
+
     </div> `;
     product_listing.innerHTML += htmlData;
 
@@ -46,6 +48,7 @@ const getProductOfaCategory = async (CategoryValue) => {
   const data = await response.json();
   product_listing.innerHTML = "";
   showProducts(data.products);
+ console.log(data.products[12]);
 
 }
 
@@ -93,6 +96,7 @@ const getAllProducts = async () => {
   const response = await fetch(`https://dummyjson.com/products`);
   const productsData = await response.json();
   showProducts(productsData.products);
+  console.log(productsData.products[0]);
 }
 
 

@@ -90,6 +90,16 @@ nav ul li {
 
 .product-listing {
   padding: 30px 10px;
+  margin: auto;
+}
+
+.product-center{
+  width: 90vw;
+  margin:0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(256px,1fr));
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 2rem;
 }
 
 .product-box {
@@ -142,7 +152,19 @@ nav ul li {
  
 }
 
+.view-product{
+  padding: 1rem 0;
+}
 
+.btn-view-product{
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #2a9d8f;
+  color: #2a9d8f;
+  font-weight: 600;
+  padding: 10px 30px;
+ 
+}
 
 
 /* ++++++++++++++++ footer css++++++++++++++ */
